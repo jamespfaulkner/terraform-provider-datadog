@@ -568,7 +568,7 @@ Nested `widget` `tile_def` `request` blocks have the following structure:
   variable "my_metadata" {
     default = {
       "avg:redis.info.latency_ms{$host}" = {
-        "alias": "Redis latency"
+        "alias" = "Redis latency"
       }
     }
   }
